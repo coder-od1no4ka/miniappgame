@@ -3,7 +3,8 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "gh-pages -d web-build"
+    "deploy": "gh-pages -d web-build",
+    "vercel-build": "expo export:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
